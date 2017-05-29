@@ -1,0 +1,24 @@
+{
+  "name": "array-base",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "array-base",
+  "repository": "https://github.com/75lb/array-base.git",
+  "license": "MIT",
+  "main": "./lib/array-base.js",
+  "bin": {
+    "array-base": "bin/cli.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "test-runner test/*.js",
+    "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0",
+    "test-runner": "^0.3.0"
+  }
+}
