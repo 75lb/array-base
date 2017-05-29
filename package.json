@@ -1,12 +1,16 @@
 {
   "name": "array-base",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "array-base",
   "repository": "https://github.com/75lb/array-base.git",
   "license": "MIT",
   "main": "array-base.js",
-  "keywords": [ "array", "base", "subclass" ],
+  "keywords": [
+    "array",
+    "base",
+    "subclass"
+  ],
   "engines": {
     "node": ">=4.0.0"
   },
